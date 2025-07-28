@@ -1,6 +1,8 @@
 import Button from './Button'
 import './components.css';
 
+import serviceImage1 from '../assets/ourservice-image_bgRemoved.jpg';
+import serviceImage2 from '../assets/ourservice-image2_bgRemoved.jpg';
 
 function OurService() {
     return (
@@ -11,7 +13,7 @@ function OurService() {
                     <div className="side-box1">
                         <img
                             className="our-service-image1"
-                            src="../assets/ourservice-image_bgRemoved.jpg"
+                            src={serviceImage1}
                             alt="Espresso"
                         />
                         <h3>Espresso</h3>
@@ -26,7 +28,7 @@ function OurService() {
                     <div className="side-box2">
                         <img
                             className="our-service-image2"
-                            src="../assets/ourservice-image2_bgRemoved.jpg"
+                            src={serviceImage2}
                             alt="Cappuccino"
                         />
                         <h3>Cappuccino</h3>

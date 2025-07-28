@@ -2,9 +2,10 @@ import Button from './Button';
 import Link from './Link';
 import './components.css';
 
+import Mug_shoot from '../assets/Mug_Shoots_Logo-removebg-preview.png';
 const Navbar = () => (
     <header className="navbar">
-        <img className="img-logo" src="../assets/Mug_Shoots_Logo-removebg-preview.png" alt="logo" />
+        <img className="img-logo" src={Mug_shoot} alt="logo" />
 
         <nav>
             <ul>

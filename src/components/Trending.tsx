@@ -1,5 +1,7 @@
 import './components.css';
 import Button from './Button';
+import latte from '../assets/latte_bg-removed.jpg';
+
 function Trending() {
   return (
     <div className='container-of-trending'>
@@ -14,7 +16,7 @@ function Trending() {
         <div className='image-trending'>
           <img
             className='hero-image'
-            src="../assets/latte_bg-removed.jpg"
+            src={latte}
             alt="Hero Coffee Cup"
           />
           <div className='price-badge'>R35</div>

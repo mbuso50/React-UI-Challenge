@@ -4,7 +4,9 @@ import { faApple, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import Button from './Button';
 import Section from './Section';
 import './components.css';
-
+import coffeeCup from '../assets/Coffee_Cup-Hero-removebg-preview.png';
+import serviceImage1 from '../assets/ourservice-image_bgRemoved.jpg';
+import serviceImage2 from '../assets/ourservice-image2_bgRemoved.jpg';
 const MobileDesign = () => {
     return (
         <Section
@@ -33,7 +35,7 @@ const MobileDesign = () => {
                                     <h1 className="mobile-hero-title">The Ultimate Coffee Destination</h1>
                                     <img
                                         className="mobile-hero-image"
-                                        src="/Coffee_Cup-Hero-removebg-preview.png"
+                                        src={coffeeCup}
                                         alt="Coffee Cup"
                                     />
                                     <Button variant="primary" size="small" className="mobile-hero-button">
@@ -59,7 +61,7 @@ const MobileDesign = () => {
                                     <div className="mobile-service-cards">
                                         <div className="mobile-service-card">
                                             <img
-                                                src="/src/assets/ourservice-image_bgRemoved.jpg"
+                                                src={serviceImage1}
                                                 alt="Espresso"
                                                 className="mobile-service-image"
                                             />
@@ -71,7 +73,7 @@ const MobileDesign = () => {
                                         </div>
                                         <div className="mobile-service-card">
                                             <img
-                                                src="/src/assets/ourservice-image2_bgRemoved.jpg"
+                                                src={serviceImage2}
                                                 alt="Cappuccino"
                                                 className="mobile-service-image"
                                             />

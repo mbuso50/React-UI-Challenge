@@ -1,11 +1,11 @@
 import Link from './Link';
 import './components.css';
-
+import Mug_shoot from '../assets/Mug_Shoots_Logo-removebg-preview.png';
 function Footer() {
     return (
         <div className='footer-container'>
             <div className='footer-wrapper'>
-                <img className='img-logo-footer' src="../assets/Mug_Shoots_Logo-removebg-preview.png" alt="logo" />
+                <img className='img-logo-footer' src={Mug_shoot} alt="logo" />
                 <div className='footer-links'>
 
                     <div className='footer-column'>
