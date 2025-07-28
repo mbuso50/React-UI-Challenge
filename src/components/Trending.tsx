@@ -14,7 +14,7 @@ function Trending() {
         <div className='image-trending'>
           <img
             className='hero-image'
-            src="/src/assets/latte_bg-removed.jpg"
+            src="../assets/latte_bg-removed.jpg"
             alt="Hero Coffee Cup"
           />
           <div className='price-badge'>R35</div>

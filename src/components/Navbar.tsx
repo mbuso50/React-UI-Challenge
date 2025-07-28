@@ -4,7 +4,7 @@ import './components.css';
 
 const Navbar = () => (
     <header className="navbar">
-        <img className="img-logo" src="/src/assets/Mug_Shoots_Logo-removebg-preview.png" alt="logo" />
+        <img className="img-logo" src="../assets/Mug_Shoots_Logo-removebg-preview.png" alt="logo" />
 
         <nav>
             <ul>

@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className='footer-container'>
             <div className='footer-wrapper'>
-                <img className='img-logo-footer' src="/src/assets/Mug_Shoots_Logo-removebg-preview.png" alt="logo" />
+                <img className='img-logo-footer' src="../assets/Mug_Shoots_Logo-removebg-preview.png" alt="logo" />
                 <div className='footer-links'>
 
                     <div className='footer-column'>

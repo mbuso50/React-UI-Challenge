@@ -31,7 +31,7 @@ const HeroSection = () => (
                 <FontAwesomeIcon icon={byPrefixAndName.fas['burger']} size="2x" />
             </div>
         </div>
-        <img className='hero-image' src="/src/assets/Coffee_Cup-Hero-removebg-preview.png" alt="Hero Coffee Cup" />
+        <img className='hero-image' src="../assets/Coffee_Cup-Hero-removebg-preview.png" alt="Hero Coffee Cup" />
     </section>
 );
 
