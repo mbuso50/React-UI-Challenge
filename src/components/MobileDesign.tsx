@@ -21,7 +21,7 @@ const MobileDesign = () => {
                         <div className="mobile-frame light-theme">
                             <div className="mobile-screen">
                                 <div className="mobile-notch"></div>
-                                {/* Mobile App Bar */}
+
                                 <div className="mobile-app-bar">
                                     <button className="hamburger-menu">
                                         <FontAwesomeIcon icon={faBars} />
@@ -59,7 +59,7 @@ const MobileDesign = () => {
                                     <div className="mobile-service-cards">
                                         <div className="mobile-service-card">
                                             <img
-                                                src="/ourservice-image_bgRemoved.jpg"
+                                                src="/src/assets/ourservice-image_bgRemoved.jpg"
                                                 alt="Espresso"
                                                 className="mobile-service-image"
                                             />
@@ -71,7 +71,7 @@ const MobileDesign = () => {
                                         </div>
                                         <div className="mobile-service-card">
                                             <img
-                                                src="/ourservice-image2_bgRemoved.jpg"
+                                                src="/src/assets/ourservice-image2_bgRemoved.jpg"
                                                 alt="Cappuccino"
                                                 className="mobile-service-image"
                                             />

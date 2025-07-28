@@ -11,7 +11,7 @@ function OurService() {
                     <div className="side-box1">
                         <img
                             className="our-service-image1"
-                            src="/ourservice-image_bgRemoved.jpg"
+                            src="/src/assets/ourservice-image_bgRemoved.jpg"
                             alt="Espresso"
                         />
                         <h3>Espresso</h3>
@@ -26,7 +26,7 @@ function OurService() {
                     <div className="side-box2">
                         <img
                             className="our-service-image2"
-                            src="/ourservice-image2_bgRemoved.jpg"
+                            src="/src/assets/ourservice-image2_bgRemoved.jpg"
                             alt="Cappuccino"
                         />
                         <h3>Cappuccino</h3>
